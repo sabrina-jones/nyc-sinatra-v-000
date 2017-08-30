@@ -1,0 +1,6 @@
+<h1> List of All Landmarks </h1>
+
+  <% @landmarks.each do |landmark| %>
+    <%="#{landmark.name}"%><br>
+    <%="#{landmark.year_completed}"%><br>
+  <% end %>
